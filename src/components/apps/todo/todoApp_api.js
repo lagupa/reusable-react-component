@@ -18,7 +18,7 @@ class TodoAppApi extends React.Component {
   }
 
   render() {
-    console.log(this.state.todos);
+    // console.log(this.state.todos);
     return (
       <div className="container">
         <div>

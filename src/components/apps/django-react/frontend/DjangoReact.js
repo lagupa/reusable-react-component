@@ -7,7 +7,7 @@ import BtnGroup from "../../../btnGroup";
 class DjangoReact extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
+    // console.log(props);
     this.state = {
       ListView: true
     };
@@ -18,7 +18,7 @@ class DjangoReact extends React.Component {
       ListView: !state.ListView,
       id: btnid
     }));
-    console.log(btnid);
+    // console.log(btnid);
   };
 
   // getId = (e) => {
